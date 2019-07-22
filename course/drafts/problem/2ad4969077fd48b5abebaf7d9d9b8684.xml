@@ -1,0 +1,20 @@
+<problem display_name="StringGrader" markdown="null">
+<script type="text/python">
+from mitxgraders import *
+grader = StringGrader(
+    answers=(
+        'wolf',
+        'canis lupus',
+        {'expect': 'dog', 'grade_decimal': 0.5, 'msg': 'Close to a dog!'},
+        {'expect': 'cat', 'grade_decimal': 0, 'msg': 'No, not cat!'}
+    ),
+    wrong_msg='Try again!',
+    case_sensitive=False
+)
+</script>
+
+<customresponse cfn="grader" expect="wolf">
+  <textline/> 
+</customresponse>
+
+</problem>

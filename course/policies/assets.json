@@ -1,0 +1,60 @@
+{
+    "MJxPrep.js": {
+        "contentType": "text/javascript", 
+        "content_son": {
+            "category": "asset", 
+            "course": "12345", 
+            "name": "MJxPrep.js", 
+            "org": "AT", 
+            "revision": null, 
+            "run": "0119", 
+            "tag": "c4x"
+        }, 
+        "displayname": "MJxPrep.js", 
+        "filename": "asset-v1:AT+12345+0119+type@asset+block@MJxPrep.js", 
+        "import_path": null, 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "course-card-image.jpg": {
+        "contentType": "image/jpeg", 
+        "content_son": {
+            "category": "asset", 
+            "course": "12345", 
+            "name": "course-card-image.jpg", 
+            "org": "AT", 
+            "revision": null, 
+            "run": "0119", 
+            "tag": "c4x"
+        }, 
+        "displayname": "course-card-image.jpg", 
+        "filename": "asset-v1:AT+12345+0119+type@asset+block@course-card-image.jpg", 
+        "import_path": null, 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "AT", 
+            "12345", 
+            "thumbnail", 
+            "course-card-image.jpg", 
+            null
+        ]
+    }, 
+    "python_lib.zip": {
+        "contentType": "application/zip", 
+        "content_son": {
+            "category": "asset", 
+            "course": "12345", 
+            "name": "python_lib.zip", 
+            "org": "AT", 
+            "revision": null, 
+            "run": "0119", 
+            "tag": "c4x"
+        }, 
+        "displayname": "python_lib.zip", 
+        "filename": "asset-v1:AT+12345+0119+type@asset+block@python_lib.zip", 
+        "import_path": null, 
+        "locked": false, 
+        "thumbnail_location": null
+    }
+}

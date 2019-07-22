@@ -1,0 +1,16 @@
+<problem display_name="Blank Common Problem" markdown="null" show_reset_button="true">
+<!-- Load the library and set up the grader -->
+<script type="text/python">
+from mitxgraders import *
+grader = StringGrader(case_sensitive=True)
+# case_sensitive defaults to True
+</script>
+
+<!-- Display text -->
+<p>What website are we on?</p>
+
+<!-- Set up the problem input and set grader -->
+<customresponse cfn="grader" expect="edX">
+  <textline/> 
+</customresponse>
+</problem>

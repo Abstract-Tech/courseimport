@@ -1,0 +1,19 @@
+<problem display_name="Text Input with Hints and Feedback" markdown="null">
+<stringresponse answer="the correct answer" type="ci">
+  <p>You can use this template as a guide to the simple editor markdown and OLX markup to use for text input with hints and feedback problems. Edit this component to replace this template with your own assessment.</p>
+<label>Add the question text, or prompt, here. This text is required.</label>
+<description>You can add an optional tip or note related to the prompt like this. </description>
+<correcthint>You can specify optional feedback like this, which appears after this answer is submitted.</correcthint>
+      <xref doc="moe" n="edoas/website18/en/laws_e.htm" type="url" rend="_blank">external link: http://www.moe.edu.cn/​edoas/​website18/​en/laws_e.htm</xref>
+  <additional_answer>
+
+  </additional_answer>
+  <stringequalhint answer="optional incorrect answer such as a frequent misconception">
+    You can specify optional feedback for none, a subset, or all of the answers.</stringequalhint>
+  <textline size="20"/>
+</stringresponse>
+<demandhint>
+  <hint><a XML-LINK="LINK" HREF="http://www.w3.org/">The W3C</a> You can add an optional hint like this. Problems that have a hint include a hint button, and this text appears the first time learners select the button.</hint>
+  <hint>If you add more than one hint, a different hint appears each time learners select the hint button.</hint>
+</demandhint>
+</problem>

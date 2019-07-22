@@ -1,0 +1,17 @@
+<problem display_name="fill-in-the-blanks text" markdown="null" show_reset_button="true">
+  <stringresponse answer="Ashmun" type="ci">
+    <label>What Pennsylvania school was founded in 1854 to provide
+     educational opportunities for African-Americans?</label>
+    <textline size="20" trailing_text="Institute"/>
+  </stringresponse>
+    <stringresponse answer="Ashmun" type="ci">
+    <label>What Pennsylvania school was founded in 1854 to provide
+     educational opportunities for African-Americans?</label>
+    <textline size="20" trailing_text="Institute"/>
+  </stringresponse>
+    <stringresponse answer="Ashmun" type="ci">
+    <label>What Pennsylvania school was founded in 1854 to provide
+     educational opportunities for African-Americans?</label>
+    <textline size="20" trailing_text="Institute"/>
+  </stringresponse>
+</problem>

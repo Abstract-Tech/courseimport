@@ -1,0 +1,33 @@
+<problem display_name="LinstGrader" markdown="null">
+<script type="text/python">
+from mitxgraders import *
+grader = ListGrader(
+    answers=[
+        ['cat', '3'],
+        ['dog', '2']
+    ],
+    subgraders=ListGrader(
+        subgraders=StringGrader(),
+        ordered=True
+    ),
+    grouping=[1, 1, 2, 2]
+)
+</script>
+
+<customresponse cfn="grader">
+  <table>
+    <tr>
+      <th>Animal</th>
+      <th>Number</th>
+    </tr>
+    <tr>
+      <td><textline correct_answer="dog"/></td>
+      <td><textline correct_answer="2"/></td>
+    </tr>
+    <tr>
+      <td><textline correct_answer="cat"/></td>
+      <td><textline correct_answer="3"/></td>
+    </tr>
+  </table>
+</customresponse>
+</problem>

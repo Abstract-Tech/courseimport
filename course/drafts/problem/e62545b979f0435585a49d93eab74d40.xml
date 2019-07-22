@@ -1,0 +1,14 @@
+<problem display_name="SingleListGrader" markdown="null">
+<script type="text/python">
+from mitxgraders import *
+grader = SingleListGrader(
+    answers=['2', '3', '5', '7'],
+    subgrader=StringGrader()
+)
+</script>
+
+<customresponse cfn="grader">
+  <textline math="1" correct_answer="2,3,5,7"/>
+</customresponse>
+
+</problem>

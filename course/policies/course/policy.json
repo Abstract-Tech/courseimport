@@ -1,0 +1,113 @@
+{
+    "course/course": {
+        "advanced_modules": [
+            "annotatable", 
+            "videoalpha", 
+            "openassessment", 
+            "survey"
+        ], 
+        "cert_html_view_enabled": true, 
+        "certificates": {
+            "certificates": [
+                {
+                    "course_title": "test cert", 
+                    "description": "Description of the certificate", 
+                    "id": 1018378078, 
+                    "is_active": false, 
+                    "name": "Name of the certificate", 
+                    "signatories": [
+                        {
+                            "certificate": 1018378078, 
+                            "id": 2013372558, 
+                            "name": "name", 
+                            "organization": "AT", 
+                            "signature_image_path": "", 
+                            "title": "Instructor 1"
+                        }, 
+                        {
+                            "certificate": 1018378078, 
+                            "id": 231803655, 
+                            "name": "", 
+                            "organization": "", 
+                            "signature_image_path": "", 
+                            "title": ""
+                        }
+                    ], 
+                    "version": 1
+                }
+            ]
+        }, 
+        "course_image": "course-card-image.jpg", 
+        "discussion_topics": {
+            "General": {
+                "id": "course"
+            }
+        }, 
+        "display_coursenumber": "IT-Service", 
+        "display_name": "Demo Course", 
+        "graceperiod": "", 
+        "instructor_info": {
+            "instructors": []
+        }, 
+        "language": "en", 
+        "learning_info": [], 
+        "minimum_grade_credit": 0.8, 
+        "start": "2019-01-01T00:00:00Z", 
+        "tabs": [
+            {
+                "course_staff_only": false, 
+                "name": "Home", 
+                "type": "course_info"
+            }, 
+            {
+                "course_staff_only": false, 
+                "name": "Course", 
+                "type": "courseware"
+            }, 
+            {
+                "course_staff_only": false, 
+                "name": "Description", 
+                "type": "static_tab", 
+                "url_slug": "83f07cd9c7e7436581cc4707200260ec"
+            }, 
+            {
+                "course_staff_only": false, 
+                "name": "Discussion", 
+                "type": "discussion"
+            }, 
+            {
+                "course_staff_only": false, 
+                "name": "Wiki", 
+                "type": "wiki"
+            }, 
+            {
+                "course_staff_only": false, 
+                "name": "Progress", 
+                "type": "progress"
+            }, 
+            {
+                "course_staff_only": false, 
+                "name": "Textbooks", 
+                "type": "textbooks"
+            }
+        ], 
+        "user_partitions": [
+            {
+                "active": true, 
+                "description": "Die Gruppen in dieser Konfiguration k\u00f6nnen auf ein Kohort abgebildet werden. Dies ist in der \u00dcbersichtsseite des Dozent einzustellen.", 
+                "groups": [
+                    {
+                        "id": 656981860, 
+                        "name": "Gruppe-Mathe", 
+                        "version": 1
+                    }
+                ], 
+                "id": 8564057, 
+                "name": "Inhaltsgruppen", 
+                "parameters": {}, 
+                "scheme": "cohort", 
+                "version": 3
+            }
+        ]
+    }
+}

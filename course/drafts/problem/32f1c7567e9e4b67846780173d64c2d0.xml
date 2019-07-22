@@ -1,0 +1,18 @@
+<problem display_name="FormulaGrader" markdown="null">
+<p>What is the Taylor series expansion of \exp(x) about x = 0? (Answer: <code>x^n/fact(n)</code>). Try typing <code>fact(n-1)</code> to see what happens in that case, too.</p>
+
+<script type="text/python">
+from mitxgraders import *
+grader = FormulaGrader(
+    variables=['x', 'n'],
+    sample_from={
+        'n': IntegerRange([3, 8])
+    }
+)
+</script>
+
+<p class="inline">\displaystyle e^x = \sum_{n = 0}^\infty </p>
+  <customresponse cfn="grader" inline="1" expect="x^n/fact(n)">
+  <textline math="1" inline="1" preprocessorClassName="MJxPrep" preprocessorSrc="MJxPrep.js"/>
+</customresponse>
+</problem>

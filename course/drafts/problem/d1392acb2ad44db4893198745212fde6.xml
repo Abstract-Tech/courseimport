@@ -1,0 +1,16 @@
+<problem display_name="Blank Common Problem" markdown="null" show_reset_button="true">
+<script type="text/python">
+from mitxgraders import *
+grader = ListGrader(
+    answers=['cat', 'dog'],
+    subgraders=StringGrader()
+)
+</script>
+
+  <p>Enter <code>cat</code> and <code>dog</code> in any order.</p>
+  <customresponse cfn="grader">
+    <textline correct_answer="cat"/> 
+    <br/>
+    <textline correct_answer="dog"/> 
+  </customresponse>
+</problem>

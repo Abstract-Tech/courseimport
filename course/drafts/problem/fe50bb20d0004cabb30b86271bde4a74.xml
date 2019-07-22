@@ -1,0 +1,9 @@
+<problem display_name="Multiple Correct Responses" markdown="null" show_reset_button="true">
+  <stringresponse answer="Dr. Martin Luther King, Jr." type="ci">
+    <label>What African-American led the United States civil rights movement during the 1960s?</label>
+    <additional_answer answer="Dr. Martin Luther King, Junior"/>
+    <additional_answer answer="Martin Luther King, Jr."/>
+    <additional_answer answer="Martin Luther King"/>
+    <textline size="60"/>
+  </stringresponse>
+</problem>

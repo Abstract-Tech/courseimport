@@ -1,0 +1,19 @@
+<problem markdown="null" show_reset_button="true">
+  <stringresponse answer="Correct answer 1" type="ci regexp">
+    <label>Question text</label>
+    <description>Optional tip</description>
+    <correcthint>Provides feedback when learners submit the correct
+     response.</correcthint>
+    <additional_answer answer="Correct answer 2"/>
+    <additional_answer answer="Correct answer 3"/>
+    <stringequalhint answer="Incorrect answer 1">Provides feedback when
+     learners submit the specified incorrect response.</stringequalhint>
+    <stringequalhint answer="Incorrect answer 2">Provides feedback when
+     learners submit the specified incorrect response.</stringequalhint>
+    <textline size="20"/>
+  </stringresponse>
+  <demandhint>
+    <hint>The first text string to display when learners request a hint.</hint>
+    <hint>The second text string to display when learners request a hint.</hint>
+  </demandhint>
+</problem>

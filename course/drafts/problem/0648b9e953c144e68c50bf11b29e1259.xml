@@ -1,0 +1,20 @@
+<problem display_name="NumericalGrader" markdown="null">
+<script type="text/python">
+from mitxgraders import *
+grader = ListGrader(
+    answers=['2', 'sibling_1^2'],
+    subgraders=NumericalGrader(),
+    ordered=True
+)
+</script>
+
+<customresponse cfn="grader" expect="2" inline="1">
+  <p>Let x = 3-1. What is x?</p>
+  <p class="inline">x = </p>
+  <textline inline="1"/>
+
+  <p>What is x^2?</p>
+  <p class="inline">x^2 = </p>
+  <textline inline="1"/>
+</customresponse>
+</problem>

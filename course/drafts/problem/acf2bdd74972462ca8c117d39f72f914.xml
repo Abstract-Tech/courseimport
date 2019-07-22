@@ -1,0 +1,60 @@
+<problem display_name="IntegralGrader" markdown="null">
+<span>
+<style>
+  .xmodule_display.xmodule_CapaModule .problem .capa_inputtype.textline input {
+    min-width: 0 !important;
+  }
+  .xmodule_display.xmodule_CapaModule div.problem section div span.MathJax {
+    display: inline-block !important;
+  }
+  .xmodule_display.xmodule_CapaModule div.problem section div span.MathJax_Preview {
+    display: inline-block !important;
+  }
+</style>
+
+<script type="text/python">
+from mitxgraders import *
+grader = IntegralGrader(
+    answers={
+        'lower':'0',
+        'upper':'1',
+        'integrand':'e^x',
+        'integration_variable':'x'
+    },
+    input_positions = {
+        'upper': 1,
+        'integrand': 2,
+        'lower': 3
+    }
+)
+</script>
+
+<customresponse cfn="grader">
+  <table>
+    <col style="width:10%"/>
+    <col style="width:90%"/>
+    <tbody>
+      <tr>
+        <td colspan="2">
+          <textline size="5" correct_answer="1"/>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>\displaystyle \huge{ \int }</p>
+        </td>
+        <td>
+          <br/>
+          <formulaequationinput inline="1" size="10" correct_answer="e^x" trailing_text=" dx"/>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <textline size="5" correct_answer="0"/>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</customresponse>
+</span>
+</problem>
